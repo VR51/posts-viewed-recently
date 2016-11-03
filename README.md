@@ -1,5 +1,5 @@
 # Posts Viewed Recently #
-**Contributors:** Amit Sonkhiya, K K Agrawal
+**Contributors:** Amit Sonkhiya, K K Agrawal, VR51
   
 **Donate link:** https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=amitsonkhiya%40hotmail%2ecom&lc=US&item_name=Fellow%20Tuts%20%2d%20Plugin%20Development%20Support&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
   
@@ -7,9 +7,9 @@
   
 **Requires at least:** 3.0
   
-**Tested up to:** 4.2
+**Tested up to:** 4.6.1
   
-**Stable tag:** 1.2
+**Stable tag:** 1.2.1
   
 **License:** GPLv2 or later
   
@@ -83,6 +83,9 @@ No, this plugin doesn't have any CSS rule for coloring of links and texts. It ju
 
 
 ## Upgrade Notice ##
+
+### 1.2 ###
+Fix: Missed closing unordered list group
 
 ### 1.2 ###
 Update: Post date format is same as given in WordPress setting
