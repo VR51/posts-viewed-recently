@@ -157,11 +157,15 @@ License: GPLv2 or later
 		
 	$currentPostId = get_the_ID();
 	$count = 0;
-		?>
-		
-		<?php foreach ( $ft_cookie_posts as $postId ) { 
+
+		 foreach ( $ft_cookie_posts as $postId ) {
 		    
-			if($count >= $number) return;
+			if($count >= $number){
+			   if($count > 0){
+			      echo '</ul>'.$after_widget;
+			   }
+			   return;
+			}
 			 global $wpdb;
               $post_exists = $wpdb->get_row("SELECT * FROM $wpdb->posts WHERE id = '" . $postId . "'", 'ARRAY_A');
               $ft_post = get_post($postId); //Gets post ID
