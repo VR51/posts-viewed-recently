@@ -4,7 +4,7 @@ Plugin Name: Posts Viewed Recently
 Plugin URI: http://dev.fellowtuts.com/posts-viewed-recently-plugin/
 Description: Posts Viewed Recently plugin shows posts/pages viewed by a visitor as a responsive sidebar widget or in post/page using shortcode
 Version: 1.2.1
-Author: Amit Sonkhiya, Kamal Agrawal
+Author: Amit Sonkhiya, Kamal Agrawal, VR51
 Author URI: http://dev.fellowtuts.com
 License: GPLv2 or later
 */
