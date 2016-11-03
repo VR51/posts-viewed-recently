@@ -72,6 +72,9 @@ No, this plugin doesn't have any CSS rule for coloring of links and texts. It ju
 
 ## Changelog ##
 
+### 1.2.1 ###
+Fix: Missed closing unordered list group
+
 ### 1.2 ###
 * plugin updated to show post date in format as set in WordPress setting
 
